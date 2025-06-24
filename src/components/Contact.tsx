@@ -1,23 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet-async";
 
 const Contact: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-x-hidden">
-      {/* SEO meta tagy */}
-      <Helmet>
-        <title>Kontakt | Bant - Web & Java Developer</title>
-        <meta name="description" content={t("contact.short") + " " + t("contact.invite")} />
-        <meta property="og:title" content="Kontakt | Bant - Web & Java Developer" />
-        <meta property="og:description" content={t("contact.short")} />
-        <meta property="og:image" content="/images/hero.png" />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://www.webappmaster.sk/contact" />
-      </Helmet>
-
       {/* Hero pozadie */}
       <div
         className="fixed inset-0 z-0 bg-cover bg-center"

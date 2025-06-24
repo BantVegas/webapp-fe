@@ -9,7 +9,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import EshopBanner from "./components/EshopBanner";
 import EshopDetail from "./components/EshopDetail";
-import { Helmet } from "react-helmet-async";
 
 function HomeContent() {
   const { t } = useTranslation();
@@ -43,17 +42,6 @@ function HomeContent() {
 
   return (
     <div className="min-h-screen w-full flex flex-col relative overflow-hidden">
-      <Helmet>
-        <title>Bant | Web & Java Developer</title>
-        <meta
-          name="description"
-          content={t("about.short") + " " + t("skills.short")}
-        />
-        <meta property="og:title" content="Bant | Web & Java Developer" />
-        <meta property="og:description" content={t("about.short")} />
-        <meta property="og:image" content="/images/hero.png" />
-        <meta property="og:type" content="website" />
-      </Helmet>
       {/* Pozadie */}
       <div
         className="fixed inset-0 z-[-2] bg-cover bg-center"

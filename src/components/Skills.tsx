@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet-async";
 
 export default function Skills() {
   const { t } = useTranslation();
@@ -28,15 +27,6 @@ export default function Skills() {
       className="relative min-h-screen flex flex-col py-24 px-6 md:px-12 lg:px-24 text-center"
       aria-label={t("skills.title")}
     >
-      <Helmet>
-        <title>{t("skills.title")} | Bant - Web & Java Developer</title>
-        <meta name="description" content={t("skills.short")} />
-        <meta property="og:title" content={t("skills.title") + " | Bant"} />
-        <meta property="og:description" content={t("skills.short")} />
-        <meta property="og:image" content="/images/hero.png" />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://www.webappmaster.sk/skills" />
-      </Helmet>
       {/* Celoplošné pozadie */}
       <div
         className="fixed inset-0 bg-cover bg-center -z-20"

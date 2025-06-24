@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Helmet } from "react-helmet-async";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -18,15 +17,6 @@ export default function Projects() {
       style={{ minHeight: "100vh" }}
       aria-label={t("projects.title")}
     >
-      <Helmet>
-        <title>{t("projects.title")} | Bant - Web & Java Developer</title>
-        <meta name="description" content={t("projects.short")} />
-        <meta property="og:title" content={t("projects.title") + " | Bant"} />
-        <meta property="og:description" content={t("projects.short")} />
-        <meta property="og:image" content="/images/hero.png" />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://www.webappmaster.sk/projects" />
-      </Helmet>
       {/* Celoplošné pozadie */}
       <div
         className="fixed inset-0 bg-cover bg-center -z-20"

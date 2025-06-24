@@ -1,22 +1,12 @@
 import React from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 const EshopDetail: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <div className="relative min-h-screen w-full overflow-x-hidden">
-      <Helmet>
-        <title>{t("eshopDetailTitle")} | Bant</title>
-        <meta name="description" content={t("eshopDetailDesc")} />
-        <meta property="og:title" content={t("eshopDetailTitle")} />
-        <meta property="og:description" content={t("eshopDetailDesc")} />
-        <meta property="og:image" content="/images/hero.png" />
-        <meta property="og:type" content="website" />
-      </Helmet>
-
       {/* Hero pozadie */}
       <div
         className="fixed inset-0 z-0 bg-cover bg-center"
