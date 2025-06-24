@@ -83,12 +83,25 @@ const Contact: React.FC = () => {
           <p className="mb-4 text-lg">{t("contact.invite")}</p>
           <ul className="space-y-2 text-lg">
             <li>
+              <span className="font-semibold">Name:</span>{" "}
+              Martin Lukáč
+            </li>
+            <li>
               <span className="font-semibold">Email:</span>{" "}
               <a
                 href="mailto:info@webappmaster.sk"
                 className="underline hover:text-sky-300 transition"
               >
                 info@webappmaster.sk
+              </a>
+            </li>
+            <li>
+              <span className="font-semibold">Tel.:</span>{" "}
+              <a
+                href="tel:+421950889523"
+                className="underline hover:text-sky-300 transition"
+              >
+                +421 950 889 523
               </a>
             </li>
           </ul>

@@ -52,7 +52,15 @@
   "contact": {
     "title": "Kontakt",
     "short": "Spojme sa pre spoluprácu alebo projekt.",
-    "invite": "Chceš spolupracovať alebo máš otázku? Napíš mi na e-mail:",
+    "invite": "Chceš spolupracovať alebo máš otázku? Napíš mi e-mail, zavolaj alebo pošli správu:",
+    "name": "Martin Lukáč",
+    "email": "info@webappmaster.sk",
+    "phone": "+421 950 889 523",
+    "label": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Tel."
+    },
     "form": {
       "name": "Tvoje meno",
       "namePlaceholder": "Zadaj svoje meno",
@@ -71,5 +79,6 @@
   "eshopDetailDesc": "Žiadne vstupné náklady, žiadne riziko. Všetko zabezpečím na kľúč od A po Z. Platíte len vtedy, keď zarábate! Ak chcete vedieť viac, napíšte mi a dohodneme si nezáväznú konzultáciu.",
   "eshopDetailBtn": "Chcem e-shop zadarmo →"
 }
+
 
 

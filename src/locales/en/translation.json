@@ -52,7 +52,15 @@
   "contact": {
     "title": "Contact",
     "short": "Let’s get in touch for cooperation or a project.",
-    "invite": "Want to work together or have a question? Email me:",
+    "invite": "Want to work together or have a question? Email, call or write me:",
+    "name": "Martin Lukáč",
+    "email": "info@webappmaster.sk",
+    "phone": "+421 950 889 523",
+    "label": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Tel."
+    },
     "form": {
       "name": "Your Name",
       "namePlaceholder": "Enter your name",
@@ -65,13 +73,12 @@
   },
 
   "eshopBanner": "I create e-shops for a share of sales, with zero upfront costs",
-
   "eshopBannerTitle": "eshop",
   "eshopBannerShort": "for a commission from sales",
-
   "eshopDetailTitle": "E-shop for free, you pay only a commission from sales",
   "eshopDetailLead": "I will create a modern, top-tier e-shop for you completely <b>for free</b>. You pay only a sales commission <b>(8% to 12%)</b> depending on your business size and number of products.",
   "eshopDetailDesc": "No upfront costs, no risk. I handle everything from A to Z. You only pay when you make money! If you want to know more, message me and we’ll set up a free, non-binding consultation.",
   "eshopDetailBtn": "I want a free e-shop →"
 }
+
 
