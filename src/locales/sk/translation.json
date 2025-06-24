@@ -1,0 +1,75 @@
+{
+  "about": {
+    "title": "O mne",
+    "short": "Kto som a čo prinášam do webového a Java vývoja.",
+    "description": "Skúsený vývojár so záľubou v čistom kóde a efektívnych riešeniach. Zameriavam sa na full-stack webové aplikácie a enterprise Java systémy.",
+    "extra": "Som spoľahlivý tímový hráč, vždy ochotný spraviť niečo navyše, aby som prekonal očakávania a priniesol do každého projektu inovácie. Ovládam React, TailwindCSS, Spring Boot a špeciálne AI a machine learning, kde sa neustále snažím prinášať reálnu hodnotu a zlepšovať užívateľské zážitky. Som nadšený z neustáleho vzdelávania a sledovania najnovších technológií. Verím v písanie udržiavateľného, škálovateľného kódu, ktorý zvyšuje životnosť projektu. Spolupráca a jasná komunikácia sú kľúčové hodnoty, ktoré prinášam do každého tímu. Bez problémov komunikujem aj v angličtine a viem realizovať projekty aj pre zahraničných klientov."
+  },
+  "nav": {
+    "home": "Domov",
+    "about": "O mne",
+    "skills": "Zručnosti",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "greeting": "Ahoj, volám sa",
+    "name": "Bant",
+    "role": "Web & Java Developer",
+    "intro": "Tvorím moderné webové aplikácie a robustné Java backendy.",
+    "cta": "Poďme spolupracovať"
+  },
+  "skills": {
+    "title": "Zručnosti",
+    "short": "Všetky moderné webové a backendové technológie, ktoré používam.",
+    "description": "Ovládam širokú škálu moderných webových a backendových technológií. Patrí sem React, Vite a TailwindCSS na tvorbu moderných a responzívnych užívateľských rozhraní. Na backende sa špecializujem na Javu a Spring Boot, kde vyvíjam škálovateľné a bezpečné REST API. Veľkú pozornosť venujem architektúre frontendu a UI/UX, aby bol používateľský zážitok intuitívny. Mám skúsenosti aj s integráciou komplexných systémov s dôrazom na bezpečnosť, výkon a udržiavateľnosť. Svoje vedomosti som rozšíril aj o AI a machine learning, aby som do projektov prinášal inteligentné funkcie a automatizáciu s reálnym prínosom pre biznis.",
+    "certificates": [
+      "Certifikát 1",
+      "Certifikát 2",
+      "Certifikát 3",
+      "Certifikát 4",
+      "Certifikát 5",
+      "Certifikát 6",
+      "Certifikát 7",
+      "Certifikát 8",
+      "Certifikát 9",
+      "JavaScript certifikát",
+      "Git certifikát",
+      "MySQL certifikát",
+      "UML certifikát",
+      "React certifikát",
+      "Certifikát Spring Boot Framework"
+    ]
+  },
+  "projects": {
+    "title": "Projekty",
+    "short": "Ukážka mojich najlepších a najpraktickejších projektov.",
+    "dietnyplan": "Vlastný generátor diétnych plánov s integráciou Stripe.",
+    "kalkulacka": "Univerzálne kalkulačky pre rôzne oblasti.",
+    "dokumenti": "Automatizácia dokumentov a AI analýza právnych dokumentov.",
+    "basecamp": "Populárny nástroj na riadenie projektov a tímovú spoluprácu."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "short": "Spojme sa pre spoluprácu alebo projekt.",
+    "invite": "Chceš spolupracovať alebo máš otázku? Napíš mi na e-mail:",
+    "form": {
+      "name": "Tvoje meno",
+      "namePlaceholder": "Zadaj svoje meno",
+      "email": "E-mailová adresa",
+      "emailPlaceholder": "Zadaj svoj e-mail",
+      "message": "Správa",
+      "messagePlaceholder": "Ako ti môžem pomôcť?",
+      "submit": "Odoslať"
+    }
+  },
+  "eshopBanner": "Tvorím eshopy za percentá z predaja, bez vstupných nákladov",
+  "eshopBannerTitle": "eshop",
+  "eshopBannerShort": "za províziu z predaja",
+  "eshopDetailTitle": "E-shop zadarmo, platíte až províziu z predaja",
+  "eshopDetailLead": "Vytvorím vám moderný, špičkový eshop úplne <b>zadarmo</b>. Platíte len províziu z predaja <b>(8 % až 12 %)</b> podľa veľkosti a počtu produktov.",
+  "eshopDetailDesc": "Žiadne vstupné náklady, žiadne riziko. Všetko zabezpečím na kľúč od A po Z. Platíte len vtedy, keď zarábate! Ak chcete vedieť viac, napíšte mi a dohodneme si nezáväznú konzultáciu.",
+  "eshopDetailBtn": "Chcem e-shop zadarmo →"
+}
+
+

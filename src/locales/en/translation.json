@@ -1,0 +1,77 @@
+{
+  "about": {
+    "title": "About Me",
+    "short": "Who I am and what I bring to web & Java development.",
+    "description": "Experienced developer with a passion for clean code and effective solutions. I focus on full-stack web applications and enterprise Java systems.",
+    "extra": "I'm a reliable team player, always willing to go the extra mile to exceed expectations and bring innovation to every project. My know-how includes React, TailwindCSS, Spring Boot, and especially AI and machine learning, where I constantly strive to deliver real value and improve user experiences. I'm passionate about continuous learning and following the latest technologies. I believe in writing maintainable and scalable code that improves project longevity. Collaboration and clear communication are values I bring to every team. I am fluent in English and able to communicate and deliver projects internationally."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Bant",
+    "role": "Web & Java Developer",
+    "intro": "I build modern web applications and robust Java backends.",
+    "cta": "Let's work together"
+  },
+  "skills": {
+    "title": "Skills",
+    "short": "All modern web and backend technologies I use.",
+    "description": "I have a broad knowledge of modern web and backend technologies. This includes React, Vite, and TailwindCSS for building modern, responsive interfaces. I build my backend in Java and Spring Boot, where I develop scalable and secure REST APIs. I pay special attention to frontend architecture and UI/UX to make the user experience as intuitive as possible. I also have experience integrating complex systems with a focus on security, performance, and maintainability. In AI and machine learning, I strive to bring intelligent features and automation to projects to deliver real business value.",
+    "certificates": [
+      "Certificate 1",
+      "Certificate 2",
+      "Certificate 3",
+      "Certificate 4",
+      "Certificate 5",
+      "Certificate 6",
+      "Certificate 7",
+      "Certificate 8",
+      "Certificate 9",
+      "JavaScript Certificate",
+      "Git Certificate",
+      "MySQL Certificate",
+      "UML Certificate",
+      "React Certificate",
+      "Spring Boot Framework Certificate"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "short": "A showcase of my best and most practical projects.",
+    "dietnyplan": "Custom meal plan generator with Stripe integration.",
+    "kalkulacka": "Universal calculators for various domains.",
+    "dokumenti": "Document automation and AI-powered legal document analysis.",
+    "basecamp": "Popular tool for project management and team collaboration."
+  },
+  "contact": {
+    "title": "Contact",
+    "short": "Let’s get in touch for cooperation or a project.",
+    "invite": "Want to work together or have a question? Email me:",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "message": "Message",
+      "messagePlaceholder": "How can I help you?",
+      "submit": "Send"
+    }
+  },
+
+  "eshopBanner": "I create e-shops for a share of sales, with zero upfront costs",
+
+  "eshopBannerTitle": "eshop",
+  "eshopBannerShort": "for a commission from sales",
+
+  "eshopDetailTitle": "E-shop for free, you pay only a commission from sales",
+  "eshopDetailLead": "I will create a modern, top-tier e-shop for you completely <b>for free</b>. You pay only a sales commission <b>(8% to 12%)</b> depending on your business size and number of products.",
+  "eshopDetailDesc": "No upfront costs, no risk. I handle everything from A to Z. You only pay when you make money! If you want to know more, message me and we’ll set up a free, non-binding consultation.",
+  "eshopDetailBtn": "I want a free e-shop →"
+}
+
