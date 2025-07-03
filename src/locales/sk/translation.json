@@ -47,7 +47,8 @@
     "dietnyplan": "Vlastný generátor diétnych plánov s integráciou Stripe.",
     "kalkulacka": "Univerzálne kalkulačky pre rôzne oblasti.",
     "dokumenti": "Automatizácia dokumentov a AI analýza právnych dokumentov.",
-    "basecamp": "Populárny nástroj na riadenie projektov a tímovú spoluprácu."
+    "sdoktorom": "Veľký medicínsky portál (stále vo vývoji)",
+    "sdoktorom.desc": "Rozsiahly medicínsky projekt spájajúci pacientov a lekárov, s AI analýzou, online komunikáciou a správou zdravotných údajov. Projekt je stále vo vývoji."
   },
   "contact": {
     "title": "Kontakt",
@@ -57,7 +58,7 @@
     "email": "info@webappmaster.sk",
     "phone": "+421 950 889 523",
     "label": {
-      "name": "Name",
+      "name": "Meno",
       "email": "Email",
       "phone": "Tel."
     },

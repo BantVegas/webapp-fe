@@ -8,7 +8,11 @@ export default function Projects() {
     { key: "dietnyplan", link: "https://dietnyplan.sk" },
     { key: "kalkulacka", link: "https://univerzalkalkulacka.sk" },
     { key: "dokumenti", link: "https://dokumenti.sk" },
-    { key: "basecamp", link: "https://basecamp.com" },
+    {
+      key: "sdoktorom",
+      link: "https://sdoktorom.sk",
+      description: t("projects.sdoktorom.desc"),
+    },
   ];
 
   return (
@@ -32,14 +36,19 @@ export default function Projects() {
           {t("projects.title")}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center">
-          {projectList.map(({ key, link }) => (
+          {projectList.map(({ key, link, description }) => (
             <div
               key={key}
               className="bg-white/10 rounded-lg p-8 shadow-lg hover:bg-white/20 transition cursor-pointer break-words min-h-[250px] flex flex-col justify-center max-w-[420px] w-full"
             >
-              <h2 className="text-xl md:text-2xl font-semibold text-sky-300 mb-6">
+              <h2 className="text-xl md:text-2xl font-semibold text-sky-300 mb-4">
                 {t(`projects.${key}`)}
               </h2>
+              {description && (
+                <p className="text-base text-slate-200 mb-4 min-h-[48px]">
+                  {description}
+                </p>
+              )}
               <a
                 href={link}
                 target="_blank"

@@ -47,7 +47,8 @@
     "dietnyplan": "Custom meal plan generator with Stripe integration.",
     "kalkulacka": "Universal calculators for various domains.",
     "dokumenti": "Document automation and AI-powered legal document analysis.",
-    "basecamp": "Popular tool for project management and team collaboration."
+    "sdoktorom": "Large-scale medical portal (still in development)",
+    "sdoktorom.desc": "A major medical project connecting patients and doctors, with AI analysis, online communication, and health management. Still actively being developed."
   },
   "contact": {
     "title": "Contact",
@@ -71,7 +72,6 @@
       "submit": "Send"
     }
   },
-
   "eshopBanner": "I create e-shops for a share of sales, with zero upfront costs",
   "eshopBannerTitle": "eshop",
   "eshopBannerShort": "for a commission from sales",
